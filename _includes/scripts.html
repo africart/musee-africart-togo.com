@@ -9,7 +9,11 @@
   {% endfor %}
 {% else %}
   <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
+  {% comment %}
+  460k NO WAY !
   <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+  {% endcomment %}
+
 {% endif %}
 
 {% if site.search == true or page.layout == "search" %}
