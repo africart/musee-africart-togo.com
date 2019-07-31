@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "fr"
-title                    : "Musée AFRICART Kara, Togo"
+title                    : "Musée AFRICART Kara"
 title_separator          : "-"
 subtitle                 : Art Africain # site tagline that appears below site title in masthead
 name                     : "Association MUSEE-AFRICART-TOGO"
@@ -179,8 +179,8 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-  parse_block_html: true
-  parse_span_html: true
+#  parse_block_html: true
+#  parse_span_html: true
 
 # Sass/SCSS
 sass:
