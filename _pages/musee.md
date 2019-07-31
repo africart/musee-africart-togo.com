@@ -2,7 +2,7 @@
 title: "Musée"
 layout: splash
 permalink: /musee/
-date: 2016-03-23T11:48:41-04:00
+date: 2019-07-31
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -11,7 +11,7 @@ header:
     - label: "Download"
       url: "https://github.com/mmistakes/minimal-mistakes/"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
+excerpt: "A Kara au Togo viens de s’ouvrir le musée art des masques et des sculptures Africaines. Dans ce lieu on trouve un nombre important de masques et de sculptures essayant de donner un visage aux différentes ethnies  peuplant les pays côtiers et intérieur de l’Afrique depuis la Guinée Konakry, jusqu'à l’Angola et plus.<br>Lors de votre prochaine visite, vous aurez déjà l’occasion de faire un grand et beau voyage tout en restant dans un espace qui, nous l’espérons, vous sera agréable..."
 intro:
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 feature_row:
