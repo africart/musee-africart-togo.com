@@ -1,11 +1,11 @@
 ---
-title: "Accueil"
+title: "Musée"
 layout: splash
-permalink: /
+permalink: /musee/
 date: 2019-07-31
 header:
   overlay_color: "#000"
-  overlay_filter: "0.2"
+  overlay_filter: "0.5"
   overlay_image: /img/masques-musee-africart-kara-togo-splash-1600x900.jpg
   actions:
     - label: "L'une des plus belle collection du Togo"
