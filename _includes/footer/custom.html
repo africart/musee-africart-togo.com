@@ -1,4 +1,4 @@
-<!-- start custom footer snippets -->
+{% if jekyll.environment == 'production' %}
 <script>
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {
@@ -10,4 +10,4 @@
     });
   }
 </script>
-<!-- end custom footer snippets -->
+{% endif %}

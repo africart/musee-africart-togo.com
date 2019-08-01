@@ -1,5 +1,6 @@
-<!-- start custom head snippets -->
+{% if jekyll.environment == 'production' %}
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+{% comment %}
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
-
-<!-- end custom head snippets -->
+{% endcomment %}
+{% endif %}
