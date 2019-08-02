@@ -1,5 +1,5 @@
 <!-- jekyll.environment : {{ jekyll.environment }} -->
-{% if jekyll.environment == 'production' %}
+{% if jekyll.environment == 'production' or site.allow_netlify_identity == true %}
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 {% endif %}
 

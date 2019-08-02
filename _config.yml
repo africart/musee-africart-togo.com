@@ -271,3 +271,5 @@ liquid:
 # sets html comment at include start and end
 comment_includes: true
 
+# loads netlify identity js if necessary on a non production branch
+allow_netlify_identity: true

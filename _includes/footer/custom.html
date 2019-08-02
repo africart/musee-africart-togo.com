@@ -1,4 +1,4 @@
-{% if jekyll.environment == 'production' %}
+{% if jekyll.environment == 'production' or site.allow_netlify_identity == true %}
 <script>
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {
