@@ -1,15 +1,13 @@
 ---
 title: "Bienvenus sur le site du Musée Africart Togo à Kara"
-header:
-  video:
-    id: XsxDH4HcOWA
-    provider: youtube
+
+
 categories:
-  - Layout
-  - Uncategorized
+  - Association Musée Kara Togo
+  - News
 tags:
-  - video
-  - layout
+  - Vie du musée
+
 ---
 
 
