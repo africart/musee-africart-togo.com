@@ -1,0 +1,22 @@
+
+#######################################################################
+#
+#
+#
+#
+#######################################################################
+# Mint skin
+#
+# Colors
+#
+
+background-color: "#f3f6f6"
+text-color: "#40514e"
+muted-text-color: "#40514e"
+primary-color: "#f4b4ff"
+
+footer-background-color: "#0d9e8d"
+link-color: "#0d9e8d"
+masthead-link-color: "#40514e"
+masthead-link-color-hover: "#40514e"
+

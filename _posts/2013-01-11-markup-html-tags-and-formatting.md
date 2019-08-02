@@ -1,17 +1,53 @@
 ---
 title: "Markup: HTML Tags and Formatting"
-header:
-  teaser: "assets/images/markup-syntax-highlighting-teaser.jpg"
-categories:
-  - Markup
-tags:
-  - content
-  - css
-  - formatting
-  - html
-  - markup
-toc: false
+related: true
+author_profile: false
 ---
+{::nomarkdown}
+<style>
+
+.swatch_wrap{
+  display: block;
+  position: relative;
+  width: 100%
+  border: 3px solid red;
+}
+
+.swatch_wrap img{
+  float: left;
+  width: 80px;
+}
+
+.swatch_color{
+  display: block;
+  width: 400px;
+  height: 100px;
+}
+
+.swatch_text{
+ float: right;
+}
+
+{% for d in site.data.colors %}
+  .{{ d[0] }}{
+    background: {{ d[1] }};
+  }
+{% endfor %}
+</style>
+
+{% for d in site.data.colors %}
+  {% capture swatch_text %}<p>{{ d[0] }} : {{ d[1] }}</p>{% endcapture %}
+<hr>
+  <div class="swatch_wrap">
+    <div class="swatch_color {{ d[0] }}">
+      <img src="{{ site.baseurl }}/img/logo-musee-africart-kara-togo-kwele-optimized-omgsvg.svg" alt="">
+      {{ swatch_text }}
+    </div>
+    {{ swatch_text }}
+  </div>
+{% endfor %}
+{:/}
+
 
 A variety of common markup showing how the theme styles them.
 
