@@ -139,6 +139,7 @@ include:
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
+  - .idea
   - vendor
   - .asset-cache
   - .bundle
@@ -253,8 +254,8 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: true
+      author_profile: false
+      read_time: false
       comments: false
       share: true
       related: true
