@@ -11,6 +11,10 @@ publish_mode: editorial_workflow
 
 media_folder: "img" # Media files will be stored in the repo under images/uploads
 
+logo_url: https://musee-africart-togo.com/img/logo-musee-africart-kara-togo-kwele-optimized-omgsvg.svg
+
+show_preview_links: true
+
 collections:
 
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
@@ -19,7 +23,6 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
