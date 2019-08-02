@@ -8,10 +8,6 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.3"
   overlay_image: /img/musee/africart-kara-musee-masques-02-1600x400.jpg
-  actions:
-    - label: "Visitez notre musée !"
-      url: "/musee/"
-excerpt: "Faites un voyage dans une collection exceptionnelle."
 
 features :
 
@@ -28,7 +24,7 @@ features :
       alt: "Accueil du public"
       title: "Accueil du public"
       excerpt: >
-                Nous vous accueillons du lundi au samedi de 9 heures à 18 heures.
+                Notre équipe se fait un plaisir de vous accueillir 7 jours sur 7, et ce, de 9 heures à 18 heures.
 
   boutique:
     - type: left
