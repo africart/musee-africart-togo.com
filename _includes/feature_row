@@ -1,13 +1,13 @@
 {% if include.id %}
   {% assign feature_row = page[include.id] %}
+{% elsif include.feature_name %}
+  {% assign feature_row = page.features[include.feature_name] %}
 {% else %}
   {% assign feature_row = page.feature_row %}
 {% endif %}
 
 <div class="feature__wrapper">
-
   {% for f in feature_row %}
-
     {% if f.url contains "://" %}
       {% capture f_url %}{{ f.url }}{% endcapture %}
     {% else %}

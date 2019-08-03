@@ -12,11 +12,11 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "fr"
-title                    : "Musée AFRICART Kara, Togo"
+title                    : "Musée AFRICART Kara"
 title_separator          : "-"
 subtitle                 : Art Africain # site tagline that appears below site title in masthead
 name                     : "Association MUSEE-AFRICART-TOGO"
@@ -26,7 +26,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : africart/musee-africart-togo.com # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : /img/musee-africart-kara-togo-masques-fallback-teaset-500x300.jpg # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : /img/logo-musee-africart-kara-togo-kwele-optimized-omgsvg.gif # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "Musée AFRICART Kara, Togo" # overrides the website title displayed in the masthead, use " " for no title
 
 # custom settings for africart togo
 robots_allow: false # true : allow robots indexing and points to sitemap
@@ -139,6 +139,7 @@ include:
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
+  - .idea
   - vendor
   - .asset-cache
   - .bundle
@@ -179,8 +180,8 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-  parse_block_html: true
-  parse_span_html: true
+#  parse_block_html: true
+#  parse_span_html: true
 
 # Sass/SCSS
 sass:
@@ -193,7 +194,7 @@ sass:
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+paginate_path: "/blog/page:num/"
 timezone: "Africa/Lome" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
@@ -253,9 +254,9 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: true
-      comments: true
+      author_profile: false
+      read_time: false
+      comments: false
       share: true
       related: true
 
@@ -270,3 +271,5 @@ liquid:
 # sets html comment at include start and end
 comment_includes: true
 
+# loads netlify identity js if necessary on a non production branch
+allow_netlify_identity: true
