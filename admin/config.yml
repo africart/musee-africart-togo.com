@@ -32,7 +32,7 @@ collections:
     delete: false # prevents users from deleting items in a collection; defaults to true
     extension: md
     format: frontmatter
-    slug: "{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields for each document, usually in front matter
       - name: "header"
         label: "header"
