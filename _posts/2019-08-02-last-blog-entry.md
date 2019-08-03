@@ -1,6 +1,6 @@
 ---
 title: Last blog entry
-excerpt: Excerpt text
+excerpt: '**Excerpt** text'
 tags:
   - one
   - two
