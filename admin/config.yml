@@ -23,29 +23,33 @@ logo_url: {{ site.url }}/img/logo-musee-africart-kara-togo-kwele-optimized-omgsv
 show_preview_links: true
 
 collections:
-
-  - name: "post" # Used in routes, e.g., /admin/collections/blog
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
-    label_singular: "Blog" # Used in the UI for singular
-    folder: "_posts" # The path to the folder where the documents are stored
+    folder: "_posts/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     delete: false # prevents users from deleting items in a collection; defaults to true
     extension: md
     format: frontmatter
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields for each document, usually in front matter
-      - name: "header"
-        label: "header"
-        widget: "string"
-        required: false
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Published", name: "published", widget: "boolean", , default: true}
-      - {label: "permalink", name: "permalink", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
+
       - label: "Tags"
         name: "tags"
         widget: "list"
-        default: ["news"]
+        default: [""]
         required: false
+
+      - label: "Testimonials"
+        name: "testimonials"
+        required: false
+        widget: "list"
+        fields:
+          - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
+          - label: Author
+            name: author
+            widget: object
+            fields:
+              - {label: Name, name: name, widget: string, default: "Emmet"}
+              - {label: Avatar, name: avatar, widget: image, default: "/img/emmet.jpg"}
