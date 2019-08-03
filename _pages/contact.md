@@ -1,6 +1,5 @@
 ---
 title: "Contact"
-layout: splash
 permalink: /contact/
 date: 2019-07-31
 header:

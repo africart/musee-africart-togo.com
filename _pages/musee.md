@@ -1,12 +1,10 @@
 ---
 title: "Notre Musée"
-layout: single
-classes: wide
 permalink: /musee/
 
 header:
   overlay_color: "#000"
-  overlay_filter: "0.3"
+  overlay_filter: "0.5"
   overlay_image: /img/musee/africart-kara-musee-masques-02-1600x400.jpg
 
 features :

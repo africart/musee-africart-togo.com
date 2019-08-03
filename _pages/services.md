@@ -1,6 +1,5 @@
 ---
 title: "Nos services"
-layout: splash
 permalink: /services/
 date: 2019-07-31
 
