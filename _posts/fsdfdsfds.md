@@ -1,6 +1,6 @@
 ---
 title: Edited post with lot of front matter
-excerpt: ssd
+excerpt: ssd sdfdsf
 tags:
   - news rrrr rrrrr
 header: dsfsdfsdfsd
