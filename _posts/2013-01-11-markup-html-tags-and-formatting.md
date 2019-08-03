@@ -1,16 +1,10 @@
 ---
 title: 'Markup: HTML Tags and Formatting'
 tags:
-  - One two three
-testimonials:
-  - author:
-      avatar: /img/emmet.jpg
-      name: Emmet
-    quote: Everything is awesome!
-  - author:
-      avatar: /img/emmet.jpg
-      name: Daja
-    quote: Other testimonial yolo !
+  - One
+  - two
+  - three
+  - and more
 ---
 {::nomarkdown}
 <style>
