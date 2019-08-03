@@ -1,5 +1,5 @@
 ---
-title: dvcfbdfvgd
+title: Post with header
 header:
   - actions:
       label: This is the button text
