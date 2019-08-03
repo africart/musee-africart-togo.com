@@ -259,6 +259,18 @@ defaults:
       comments: false
       share: true
       related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      classes: wide
+      author_profile: false
+      read_time: false
+      comments: false
+      share: true
+      related: false
 
 # liquid debug
 liquid:
