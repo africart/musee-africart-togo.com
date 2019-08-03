@@ -8,8 +8,10 @@ tags:
 header:
   caption: ''
   overlay_color: '#000'
-  overlay_filter: '0.'
+  overlay_filter: '0.5'
   overlay_image: /img/logo-africart-2-bgrouille.jpg
+
+
 profile:
   address:
     city: zerezr
