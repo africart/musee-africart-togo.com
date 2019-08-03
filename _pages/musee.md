@@ -41,11 +41,5 @@ features :
                  - colliers en perle de verre
 
 ---
-
-{% for feature in page.features %}
-{% assign feature_name = feature[0] %}
-{% assign feature_content = feature[1] %}
-{% assign feature_type = feature[1][0]['type'] | default: 'left' %}
-{% include feature_row feature_name=feature_name type=feature_type %}
-{% endfor %}
+{% include features_rows_output %}
 
