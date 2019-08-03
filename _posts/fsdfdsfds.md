@@ -1,11 +1,16 @@
 ---
-header: dsfsdfsdfsd
-title: fsdfdsfds
-published: true
-permalink: /yolo
-date: 2019-08-03T09:42:09.023Z
-thumbnail: /img/logo-africart-2-bgrouille.jpg
+title: Edited post with lot of front matter
+excerpt: ssd
 tags:
   - news rrrr rrrrr
+header: dsfsdfsdfsd
+profile:
+  address:
+    city: sdfs
+    post-code: sdf
+    street: sdf
+  birthdate: 08/03/2019
+  name: dfdf
+  public: true
 ---
 fg
