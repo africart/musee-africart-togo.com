@@ -24,10 +24,10 @@ show_preview_links: true
 
 collections:
 
-  - name: "page" # Used in routes, e.g., /admin/collections/blog
-    label: "Pages" # Used in the UI
-    label_singular: "Page" # Used in the UI for singular
-    folder: "_pages" # The path to the folder where the documents are stored
+  - name: "post" # Used in routes, e.g., /admin/collections/blog
+    label: "Blog" # Used in the UI
+    label_singular: "Blog" # Used in the UI for singular
+    folder: "_posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     delete: false # prevents users from deleting items in a collection; defaults to true
     extension: md
@@ -39,6 +39,7 @@ collections:
         widget: "string"
         required: false
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Published", name: "published", widget: "boolean", , default: true}
       - {label: "permalink", name: "permalink", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
