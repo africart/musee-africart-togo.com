@@ -37,19 +37,23 @@ collections:
 
       - label: "Tags"
         name: "tags"
+        hint: une liste de tags séparé par une virgule (tag1, tag2, un autre tag)
         widget: "list"
         default: [""]
         required: false
 
-      - label: "Testimonials"
-        name: "testimonials"
+      - label: "Header"
+        name: "header"
         required: false
         widget: "list"
         fields:
-          - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
-          - label: Author
-            name: author
+          - {label: "Couleur de masque", name: overlay_color, widget: hidden, default: "#000"}
+          - {label: "Transparence de masque", name: overlay_filter, widget: hidden, default: "0."}
+          - {label: "Image", name: overlay_image, widget: image, default: false, required: false}
+          - {label: "Caption", name: caption, widget: string, default: "", required: false}
+          - label: Bouton d'action
+            name: actions
             widget: object
             fields:
-              - {label: Name, name: name, widget: string, default: "Emmet"}
-              - {label: Avatar, name: avatar, widget: image, default: "/img/emmet.jpg"}
+              - {label: Label, name: label, widget: string, default: ""}
+              - {label: Url, name: url, widget: string, default: "/"}
