@@ -34,16 +34,17 @@ collections:
     format: frontmatter
     slug: "{{slug}}"
     fields: # The fields for each document, usually in front matter
-      - {
-        name: "header",
-        label: "header",
-        widget: "string",
+      - name: "header"
+        label: "header"
+        widget: "string"
         required: false
-      }
       - {label: "Title", name: "title", widget: "string"}
       - {label: "permalink", name: "permalink", widget: "string"}
-
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
-
       - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        default: ["news"]
+        required: false
