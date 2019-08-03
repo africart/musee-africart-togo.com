@@ -1,3 +1,5 @@
+---
+---
 ##################################################################
 # Netlify CMS configuration
 # @see https://www.netlifycms.org/docs/add-to-your-site/
@@ -14,21 +16,34 @@ backend:
 
 media_folder: "img" # Media files will be stored in the repo under images/uploads
 
-logo_url: https://musee-africart-togo.com/img/logo-musee-africart-kara-togo-kwele-optimized-omgsvg.svg
+site_url: {{ site.url }}
+display_url: {{ site.url }}
+logo_url: {{ site.url }}/img/logo-musee-africart-kara-togo-kwele-optimized-omgsvg.svg
 
 show_preview_links: true
 
 collections:
 
   - name: "page" # Used in routes, e.g., /admin/collections/blog
-    label: "Page" # Used in the UI
+    label: "Pages" # Used in the UI
+    label_singular: "Page" # Used in the UI for singular
     folder: "_pages" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    delete: false # prevents users from deleting items in a collection; defaults to true
+    extension: md
+    format: frontmatter
+    slug: "{{slug}}"
     fields: # The fields for each document, usually in front matter
+      - {
+        name: "header",
+        label: "header",
+        widget: "string",
+        required: false
+      }
       - {label: "Title", name: "title", widget: "string"}
       - {label: "permalink", name: "permalink", widget: "string"}
 
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
+
       - {label: "Body", name: "body", widget: "markdown"}
