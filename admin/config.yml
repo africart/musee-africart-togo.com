@@ -47,7 +47,7 @@ collections:
         widget: "object"
         fields:
           - {label: "Couleur de masque", name: overlay_color, widget: hidden, default: "#000"}
-          - {label: "Transparence de masque", name: overlay_filter, widget: hidden, default: "0."}
+          - {label: "Transparence de masque", name: overlay_filter, widget: hidden, default: "0.5"}
           - {label: "Image", name: overlay_image, widget: image, default: false, required: false}
           - {label: "Caption", name: caption, widget: string, default: "", required: false}
 
@@ -69,3 +69,16 @@ collections:
               - {label: "Street Address", name: "street", widget: "string"}
               - {label: "City", name: "city", widget: "string"}
               - {label: "Postal Code", name: "post-code", widget: "string"}
+
+      - label: "Testimonials"
+        name: "testimonials"
+        widget: "list"
+        fields:
+          - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
+          - label: Author
+            name: author
+            widget: object
+            fields:
+              - {label: Name, name: name, widget: string, default: "Emmet"}
+              - {label: Avatar, name: avatar, widget: image, default: "/img/emmet.jpg"}
+
