@@ -46,10 +46,28 @@ collections:
       - label: "Header"
         name: "header"
         required: false
-        widget: "list"
+        widget: "object"
         fields:
           - {label: "Couleur de masque", name: overlay_color, widget: hidden, default: "#000"}
           - {label: "Transparence de masque", name: overlay_filter, widget: hidden, default: "0."}
           - {label: "Image", name: overlay_image, widget: image, default: false, required: false}
           - {label: "Caption", name: caption, widget: string, default: "", required: false}
 
+      - label: "Profile"
+        name: "profile"
+        widget: "object"
+        fields:
+          - {label: "Public", name: "public", widget: "boolean", default: true}
+          - {label: "Name", name: "name", widget: "string"}
+          - label: "Birthdate"
+            name: "birthdate"
+            widget: "date"
+            default: ""
+            format: "MM/DD/YYYY"
+          - label: "Address"
+            name: "address"
+            widget: "object"
+            fields:
+              - {label: "Street Address", name: "street", widget: "string"}
+              - {label: "City", name: "city", widget: "string"}
+              - {label: "Postal Code", name: "post-code", widget: "string"}
