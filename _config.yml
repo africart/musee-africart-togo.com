@@ -275,7 +275,7 @@ defaults:
 # liquid debug
 liquid:
   strict_variables: false # default: false
-  strict_filters: false # default: false
+  strict_filters: true # default: false
   error_mode: strict # default: warn
 
 
