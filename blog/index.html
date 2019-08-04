@@ -1,6 +1,14 @@
 ---
 title: "Blog"
-layout: home
+layout: single
 permalink: /blog/
-date: 2019-07-31
 ---
+<h1>paginator.page : {{ paginator.page }}</h1>
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% include paginator.html %}

@@ -12,8 +12,8 @@ features :
     feature_row2:
       - type: left
         image_path: /img/association/musee-africart-kara-equipe-800x500.jpg
-        alt: "placeholder image 2"
-        title: "Placeholder Image Left Aligned"
+        alt: ""
+        title: "Préambule"
         excerpt: >
             - Vu la diversification des destinations touristiques et l’augmentation du nombre de touristes dans les pays de la sous-région en général et au TOGO en particulier ;
 
