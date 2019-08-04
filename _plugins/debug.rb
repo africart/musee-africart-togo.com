@@ -1,9 +1,9 @@
 # A simple way to inspect liquid template variables.
 # Usage:
 #  Can be used anywhere liquid syntax is parsed (templates, includes, posts/pages)
-#  {{ site | debug }}
-#  {{ site.posts | debug }}
-# original work at https://raw.githubusercontent.com/progrium/blogrium/master/_plugins/debug.rb
+#  {{ site | d }}
+#  {{ site.posts | d }}
+#
 require 'pp'
 module Jekyll
   # Need to overwrite the inspect method here because the original
@@ -27,12 +27,22 @@ end # Jekyll
 module Jekyll
   module DebugFilter
 
-    def debug(obj, stdout=false)
-      puts obj.pretty_inspect if stdout
-      "<pre>#{obj.class}\n#{obj.pretty_inspect}</pre>"
+    def debug(obj, html=true, stdout=false)
+
+      puts "DEBUG : <#{obj.class}> #{obj.pretty_inspect}" if stdout
+
+      # html : {{ myVar | debug }}
+      # txt  : {{ myVar | debug : false }}
+
+      if html
+        "<pre>#{obj.class}\n#{obj.pretty_inspect}</pre>"
+      else
+        "#{obj.class} - #{obj.pretty_inspect}"
+      end
+
     end
 
-  end
-end
+  end # DebugFilter
+end # Jekyll
 
 Liquid::Template.register_filter(Jekyll::DebugFilter)
