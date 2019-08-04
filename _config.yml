@@ -270,12 +270,12 @@ defaults:
       read_time: false
       comments: false
       share: true
-      related: false
+      related: true
 
 # liquid debug
 liquid:
   strict_variables: false # default: false
-  strict_filters: true # default: false
+  strict_filters: false # default: false
   error_mode: strict # default: warn
 
 
