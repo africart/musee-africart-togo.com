@@ -13,6 +13,7 @@
   max-width: 100%;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
+  background: white;
 
   @include breakpoint($x-large) {
     max-width: $max-width;
@@ -55,6 +56,9 @@
 .page__title {
   margin-top: 0;
   line-height: 1;
+  color: $primary-color;
+  text-shadow: 2px 2px 2px #666;
+  font-size: $type-size-1;
 
   & + .page__meta {
     margin-top: -0.5em;
@@ -135,7 +139,7 @@
 
   &--overlay {
     position: relative;
-    margin-bottom: 1em;
+    margin-bottom: 0;
     padding: 3em 0;
     @include clearfix;
     background-size: cover;
