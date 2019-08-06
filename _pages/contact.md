@@ -26,7 +26,7 @@ features:
 
 ## Laissez-nous un message
 
-<form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" action="/contact-success/" netlify-honeypot="bot-field">
+<form name="contact" method="POST" data-netlify="true" netlify data-netlify-recaptcha="false" action="/contact-success/" netlify-honeypot="bot-field">
   <p>
     <label>{{ site.data.ui-text[site.locale].comment_form_name_label | default: "Name" }} : <input type="text" name="name" /></label>
   </p>
