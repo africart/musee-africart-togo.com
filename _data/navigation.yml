@@ -11,8 +11,8 @@ main:
     url: /services/
   - title: "Découvertes"
     url: /decouvertes/
-  - title: "Blog"
-    url: /blog/
+  # - title: "Blog"
+  #   url: /blog/
   - title: "Contact"
     url: /contact/
 

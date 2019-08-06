@@ -24,8 +24,8 @@ description              : "Visitez le musée de l'association MUSEE AFRICART TO
 url                      : https://musee-africart-togo.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : africart/musee-africart-togo.com # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : /img/musee-africart-kara-togo-masques-fallback-teaset-500x300.jpg # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : /img/logo-musee-africart-kara-togo-kwele-optimized-omgsvg.gif # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : /img/musee/musee-africart-kara-togo-masques-fallback-teaset-500x300.jpg # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : /img/logo-musee-africart-kara-togo-kwele-optimized-omgsvg.svg # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "Musée AFRICART Kara, Togo" # overrides the website title displayed in the masthead, use " " for no title
 
 # custom settings for africart togo
@@ -284,4 +284,4 @@ liquid:
 comment_includes: true
 
 # loads netlify identity js if necessary on a non production branch
-allow_netlify_identity: true
+allow_netlify_identity: false
