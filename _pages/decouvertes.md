@@ -13,7 +13,7 @@ Ce musée est le fruit d’un long travail effectué par le père Knutz Alphonse
 ## Les fêtes traditionnelles
 
 Bien se renseigner sur les différentes dates de ces fêtes si vous êtes intéressés.
-Le Togo dispose d’une très grande diversité ethnique et culturelle. Le Togo propose quelque fêtes traditionnelles d’exceptions :Epe-ekpé(prise de la pierre sacrée) ; nouvelle an chez les Guins ;Gadao-Adossa (fête des couteaux chez les Tèm); Evala (les luttes traditionnellesKabyès).
+Le Togo dispose d’une très grande diversité ethnique et culturelle. Le Togo propose quelques fêtes traditionnelles d’exceptions :Epe-ekpé(prise de la pierre sacrée) ; nouvelle an chez les Guins ;Gadao-Adossa (fête des couteaux chez les Tèm); Evala (les luttes traditionnellesKabyès).
 
 ### Les activités liées aux fêtes traditionnelles
 
@@ -23,6 +23,7 @@ Le Togo dispose d’une très grande diversité ethnique et culturelle. Le Togo 
  - **Epe-Ekpé** : c’est l’une des cérémonies les plus importantes de toute l’Afrique de l’ouest. Epe-Ekpé est l’occasion de la prise de la pierre sacrée (Kpéssosso) qui demeure le noyau autour duquel tournent toutes les manifestations.
  - **Evala** : fête d’initiation (lutte) en pays Kabyè. Elle permet aux jeunes garçons de 18ans d’intégrer la classe des adultes. Les cérémonies finales débutent le deuxième samedi du mois de juillet à Kara.
  <iframe width="560" height="315" src="https://www.youtube.com/embed/3EXWcDlkmTM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/Fu5GDwhd0xk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  - **Gadao-Adossa** : fête des couteaux dans la région centrale
  - **Habyè** : fête religieuse des Kabyès de la Kozah. C’est une danse de démonstration magique. C’est l’occasion de montrer la force occulte des sorciers. Elle a lieu tous les cinq ans au mois de novembre.
  - **Sinkaring** : fête traditionnelle de la population de la binah (région de la Kara) elle est célébrée chaque deuxième samedi du mois de décembre.

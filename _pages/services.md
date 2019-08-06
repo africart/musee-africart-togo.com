@@ -11,7 +11,7 @@ features:
       excerpt: >
         Nous procédons pour vous, et à des tarifs préférentiels, à la réservation de votre hébergement dans toute une gamme d’hôtels, d’auberges, et de campement à des prix variant de 5.000 à 35.000frCFA la nuitée.
 
-        Certains sont équipés de restaurant, piscine, salle de réunion, place des fêtes.
+        Certains sont équipés de restaurant, piscine, salle de réunion, place des fêtes, wifi.
 
   visites:
     - type: right
