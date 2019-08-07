@@ -2,6 +2,7 @@
 title: "Merci pour votre message"
 permalink: /contact-success/
 share: false
+sitemap: false
 features:
   Merci:
       - type: left
