@@ -141,6 +141,7 @@ exclude:
   - "*.sublime-workspace"
   - .idea
   - vendor
+  - node_modules
   - .asset-cache
   - .bundle
   - .jekyll-assets-cache
