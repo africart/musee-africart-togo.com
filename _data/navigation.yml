@@ -1,12 +1,18 @@
 # main links
 main:
-  # - title: "Accueil"
-  #   url: /
-  # - title: "Musée"
-  #   url: /musee/
-  # - title: "Notre Association"
-  #   url: /association/
-  # - title: "Nos services"
-  #   url: /services/
+
+  - title: "Accueil"
+    url: /
+  - title: "Musée"
+    url: /musee/
+  - title: "Notre Association"
+    url: /association/
+  - title: "Nos services"
+    url: /services/
+  - title: "Découvertes"
+    url: /decouvertes/
   # - title: "Blog"
   #   url: /blog/
+  - title: "Contact"
+    url: /contact/
+

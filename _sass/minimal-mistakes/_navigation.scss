@@ -181,7 +181,7 @@
 
   a {
     display: block;
-    margin: 0 1rem;
+    margin: 0 .5rem;
     color: $masthead-link-color;
     text-decoration: none;
 
@@ -196,6 +196,7 @@
 
     &.site-title {
       margin-left: 0;
+      font-size: $type-size-4;
     }
   }
 
@@ -220,6 +221,7 @@
     -ms-flex: 1;
     flex: 1;
     overflow: hidden;
+    font-size: $type-size-5;
 
     li {
       -webkit-box-flex: 0;
@@ -244,7 +246,8 @@
         transform: scaleX(0) translate3d(0, 0, 0); // hide
       }
 
-      &:hover:before {
+      &:hover:before,
+      &.active:before {
         -webkit-transform: scaleX(1);
         -ms-transform: scaleX(1);
         transform: scaleX(1); // reveal

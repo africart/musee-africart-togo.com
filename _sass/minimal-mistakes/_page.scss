@@ -13,6 +13,7 @@
   max-width: 100%;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
+  background: white;
 
   @include breakpoint($x-large) {
     max-width: $max-width;
@@ -55,6 +56,9 @@
 .page__title {
   margin-top: 0;
   line-height: 1;
+  color: $primary-color;
+  text-shadow: 2px 2px 2px #666;
+  font-size: $type-size-1;
 
   & + .page__meta {
     margin-top: -0.5em;
@@ -126,7 +130,7 @@
 
 .page__hero {
   position: relative;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   @include clearfix;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
@@ -135,7 +139,7 @@
 
   &--overlay {
     position: relative;
-    margin-bottom: 2em;
+    margin-bottom: 0;
     padding: 3em 0;
     @include clearfix;
     background-size: cover;
@@ -173,6 +177,7 @@
 
     .page__title {
       font-size: $type-size-2;
+      text-shadow: 5px 5px 5px black;
 
       @include breakpoint($small) {
         font-size: $type-size-1;
@@ -357,7 +362,7 @@
   display: block;
   clear: both;
   color: lighten($text-color, 50%);
-  font-size: 0.6em;
+  font-size: 1em;
   text-transform: uppercase;
   text-align: right;
   text-decoration: none;

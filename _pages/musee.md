@@ -1,67 +1,58 @@
 ---
-title: "Musée"
-layout: splash
+title: "Notre Musée"
 permalink: /musee/
-date: 2019-07-31
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /img/masques-musee-africart-kara-togo-splash-1600x900.jpg
-  actions:
-    - label: "L'une des plus belle collection du Togo"
-      url: ""
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
-intro:
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
-feature_row:
-  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-feature_row2:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row3:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row4:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+
+#header:
+#  overlay_color: "#fff"
+#  overlay_filter: "1"
+#  overlay_image: /img/musee/africart-kara-musee-masques-02-1600x400.jpg
+
+features :
+
+  presentation:
+    - type: left
+      image_path: /img/musee/africart-kara-musee-statues-01-600x338.jpg
+      alt: "Une partie de la collection du Musée Afrikcart Kara"
+      title: "Bienvenus au Musée Africart Kara"
+      excerpt: >
+        A Kara, au Togo, viens de s’ouvrir le musée art des masques et des sculptures Africaines. Dans ce lieu on trouve un nombre important de masques et de sculptures essayant de donner un visage aux différentes ethnies  peuplant les pays côtiers et intérieur de l’Afrique depuis la Guinée Konakry, jusqu'à l’Angola et plus.
+
+  presentation2:
+    - type: right
+      image_path: /img/musee/africart-kara-musee-equipe-et-visiteurs-600x451.jpg
+      alt: "Visiteurs accompagnés de notre équipe du musée Africart à Kara"
+      title:
+      excerpt: >
+        Lors de votre prochaine visite, vous aurez déjà l’occasion de faire un grand et beau voyage tout en restant dans un espace qui, nous l’espérons, vous sera agréable..."
+
+
+  boutique:
+    - type: left
+      image_path: /img/boutique/musee-africart-togo-cartes-postales-peintes-poupee-de-chiffon-577x433.jpg
+      alt: "Boutique"
+      title: "Notre boutique"
+
+      excerpt: >
+                Le musée dispose d’une boutique dans laquelle, à la fin de votre visite vous pourrez acheter quelques souvenirs issus de l’**artisanat local** :
+                 - poupées chiffon, marionnettes
+                 - cartes postales peintes(timbres et enveloppes) et marques pages peints
+                 - petites sculptures, masques originaux
+                 - portes-clefs, pic à cheveux
+                 - colliers en perle de verre
+
+  visites:
+    - type: right
+      image_path: /img/musee/logo-africart-1-600x246.jpg
+      alt: "Accueil du public"
+      title: "Accueil du public"
+      excerpt: >
+                Notre équipe se fait un plaisir de vous accueillir 7 jours sur 7, et ce, de 9 heures à 18 heures.
+
+
+                vous pouvez nous contacter par téléphone au **(+228) 92 29 49 61** ou **(+228) 92 10 74 73**
+
+                Vous pouvez aussi nous envoyer un message par l'intermédiaire de notre [**formulaire de contact**](/contact/).
+
 ---
+{% include features_rows_output %}
 
-{% include feature_row id="intro" type="center" %}
-
-{% include feature_row %}
-
-{% include feature_row id="feature_row2" type="left" %}
-
-{% include feature_row id="feature_row3" type="right" %}
-
-{% include feature_row id="feature_row4" type="center" %}

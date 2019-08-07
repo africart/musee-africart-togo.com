@@ -1,3 +1,5 @@
+---
+---
 ##################################################################
 # Netlify CMS configuration
 # @see https://www.netlifycms.org/docs/add-to-your-site/
@@ -5,25 +7,78 @@
 
 backend:
   name: git-gateway
-  branch: develop # Branch to update (optional; defaults to master)
+  accept_roles: #optional - accepts all users if left out
+    - admin
+    - editor
+  branch: master # Branch to update (optional; defaults to master)
 
-publish_mode: editorial_workflow
+# publish_mode: editorial_workflow
 
 media_folder: "img" # Media files will be stored in the repo under images/uploads
 
-logo_url: https://musee-africart-togo.com/img/logo-musee-africart-kara-togo-kwele-optimized-omgsvg.svg
+site_url: {{ site.url }}
+display_url: {{ site.url }}
+logo_url: {{ site.url }}/img/logo-musee-africart-kara-togo-kwele-optimized-omgsvg.svg
 
 show_preview_links: true
 
 collections:
-
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     folder: "_posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    delete: false # prevents users from deleting items in a collection; defaults to true
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Excerpt", name: "excerpt", widget: "markdown"}
       - {label: "Body", name: "body", widget: "markdown"}
+
+      - label: "Tags"
+        name: "tags"
+        hint: une liste de tags séparé par une virgule (tag1, tag2, un autre tag)
+        widget: "list"
+        default: [""]
+        required: false
+
+      - label: "Header"
+        name: "header"
+        required: false
+        widget: "object"
+        fields:
+          - {label: "Couleur de masque", name: overlay_color, widget: hidden, default: "#000"}
+          - {label: "Transparence de masque", name: overlay_filter, widget: hidden, default: "0.5"}
+          - {label: "Image", name: overlay_image, widget: image, default: false, required: false}
+          - {label: "Caption", name: caption, widget: string, default: "", required: false}
+
+      - label: "Profile"
+        name: "profile"
+        widget: "object"
+        fields:
+          - {label: "Public", name: "public", widget: "boolean", default: true}
+          - {label: "Name", name: "name", widget: "string"}
+          - label: "Birthdate"
+            name: "birthdate"
+            widget: "date"
+            default: ""
+            format: "MM/DD/YYYY"
+          - label: "Address"
+            name: "address"
+            widget: "object"
+            fields:
+              - {label: "Street Address", name: "street", widget: "string"}
+              - {label: "City", name: "city", widget: "string"}
+              - {label: "Postal Code", name: "post-code", widget: "string"}
+
+      - label: "Testimonials"
+        name: "testimonials"
+        widget: "list"
+        fields:
+          - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
+          - label: Author
+            name: author
+            widget: object
+            fields:
+              - {label: Name, name: name, widget: string, default: "Emmet"}
+              - {label: Avatar, name: avatar, widget: image, default: "/img/emmet.jpg"}
+
