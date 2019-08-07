@@ -29,7 +29,7 @@ logo                     : /img/logo-musee-africart-kara-togo-kwele-optimized-om
 masthead_title           : "Musée AFRICART Kara, Togo" # overrides the website title displayed in the masthead, use " " for no title
 
 # custom settings for africart togo
-robots_allow: false # true : allow robots indexing and points to sitemap
+robots_allow: true # true : allow robots indexing and points to sitemap
                     # false : Disallow robots indexing
                     # see robot.txt for more infos
 
