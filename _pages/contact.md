@@ -21,7 +21,10 @@ features:
 ---
 {% include features_rows_output %}
 
-## Carte
+## Cartes
+
+{% include figure image_path="/img/musee/africart-plan-acces.jpg" alt="Plan d'accès Musée Africart Kara, Togo" caption="Plan d'accès du Musée Africart Kara, Togo" %}
+
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11128.270301796252!2d1.1960242884454415!3d9.55748502636023!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbe81ab4f10a5ec57!2sMus%C3%A9e+Africart!5e0!3m2!1sen!2sfr!4v1565075527368!5m2!1sen!2sfr" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 ## Laissez-nous un message
