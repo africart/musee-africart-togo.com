@@ -133,6 +133,7 @@ Au cours de la balade, on pourra se reposer, pique-niquer au pied d’une cascad
 
 Quand on parle du rocher des morts au TOGO, on fait allusion aux grands rochers en pays kotokoli dans les environs de Bafilo et précisément à Alédjo Kadara. L’altitude du rocher est de 830 mètres.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eqiOanpCr04" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Explication du guide :
 
