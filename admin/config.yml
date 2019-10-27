@@ -8,7 +8,7 @@
 backend:
   name: git-gateway
   accept_roles: #optional - accepts all users if left out
-    - develop
+    - dev
   branch: master # Branch to update (optional; defaults to master)
 
 # publish_mode: editorial_workflow
