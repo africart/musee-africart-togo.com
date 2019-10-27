@@ -50,34 +50,22 @@ collections:
           - {label: "Image", name: overlay_image, widget: image, default: false, required: false}
           - {label: "Caption", name: caption, widget: string, default: "", required: false}
 
-      - label: "Profile"
-        name: "profile"
+
+  - name: "pages" # Used in routes, e.g., /admin/collections/blog
+    label: "Pages" # Used in the UI
+    folder: "_pages" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    delete: false # prevents users from deleting items in a collection; defaults to true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Header"
+        name: "header"
+        required: false
         widget: "object"
         fields:
-          - {label: "Public", name: "public", widget: "boolean", default: true}
-          - {label: "Name", name: "name", widget: "string"}
-          - label: "Birthdate"
-            name: "birthdate"
-            widget: "date"
-            default: ""
-            format: "MM/DD/YYYY"
-          - label: "Address"
-            name: "address"
-            widget: "object"
-            fields:
-              - {label: "Street Address", name: "street", widget: "string"}
-              - {label: "City", name: "city", widget: "string"}
-              - {label: "Postal Code", name: "post-code", widget: "string"}
-
-      - label: "Testimonials"
-        name: "testimonials"
-        widget: "list"
-        fields:
-          - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
-          - label: Author
-            name: author
-            widget: object
-            fields:
-              - {label: Name, name: name, widget: string, default: "Emmet"}
-              - {label: Avatar, name: avatar, widget: image, default: "/img/emmet.jpg"}
-
+          - {label: "Couleur de masque", name: overlay_color, widget: hidden, default: "#000"}
+          - {label: "Transparence de masque", name: overlay_filter, widget: hidden, default: "0.5"}
+          - {label: "Image", name: overlay_image, widget: image, default: false, required: false}
+          - {label: "Caption", name: caption, widget: string, default: "", required: false}
