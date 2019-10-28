@@ -87,7 +87,7 @@ collections:
           - label: "Image"
             name: image_path
             widget: image
-            default: "#000"
+            default: "{{ site.logo }}"
             required: false
 
           - label: "Texte image"
