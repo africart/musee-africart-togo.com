@@ -59,7 +59,71 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     delete: false # prevents users from deleting items in a collection; defaults to true
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Title"
+        name: "title"
+        widget: "string"
+
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+
+      - label: "Sitemap"
+        name: "sitemap"
+        widget: "boolean"
+        default: false
+
+      - label: "Permalink"
+        name: "permalink"
+        widget: "string"
+        required: false
+
+
 {% include cms-admin/header.yml %}
-{% include cms-admin/feature.yml id="feature01" %}
+
+      - label: "Bloc de texte"
+        name: "features"
+        widget: "list"
+        fields:
+          - label: "Image"
+            name: image_path
+            widget: image
+            default: "#000"
+            required: false
+
+          - label: "Texte image"
+            name: image_caption
+            widget: text
+            default: "Image {{ site.title }}"
+            required: false
+
+          - label: "Text alternatif image"
+            name: alt
+            widget: text
+            required: false
+
+          - label: "Titre"
+            name: title
+            widget: text
+            required: false
+
+          - label: "Intro"
+            name: excerpt
+            widget: markdown
+            required: false
+
+          - label: "URL bouton"
+            name: url
+            widget: text
+            required: false
+
+          - label: "Texte bouton"
+            name: btn_label
+            widget: text
+            required: false
+
+          - label: "Style bouton"
+            name: btn_class
+            widget: text
+            required: false
+
+

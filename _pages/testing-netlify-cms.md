@@ -1,5 +1,6 @@
 ---
 title: Testing Netlify CMS
+permalink: /t/
 header:
   caption: This is header caption
   overlay_color: '#000'

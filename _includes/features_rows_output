@@ -1,4 +1,7 @@
 {% for feature in page.features %}
+
+<h1>{{ feature | debug }}</h1>
+
 {% assign feature_name = feature[0] %}
 {% assign feature_content = feature[1] %}
 {% assign feature_type = feature[1][0]['type'] | default: 'left' %}
