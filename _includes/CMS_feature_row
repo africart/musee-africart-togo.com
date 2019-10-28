@@ -12,6 +12,7 @@
       <div class="archive__item">
         {% if f.image_path %}
           <div class="archive__item-teaser">
+
           {% cloudinary {{ f.image_path }} alt="beautiful!" %}
 
 

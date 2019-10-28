@@ -2,6 +2,7 @@
 title: Testing Netlify CMS
 sitemap: false
 permalink: /t/
+layout: null
 header:
   caption: This is header caption
   overlay_color: '#000'
@@ -18,6 +19,10 @@ features:
     type: left
     url: /
 ---
+{% comment %}
 {% include CMS_features_rows_output %}
+{% endcomment %}
 
 Here is the body
+
+{% cloudinary {{ page.features.first.image_path }} alt="{{ page.features.first.image_caption }}" %}
