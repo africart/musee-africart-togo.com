@@ -12,7 +12,7 @@ features:
     btn_label: see changes
     excerpt: intro text
     image_caption: Image Musée AFRICART Kara
-    image_path: /img/masques-musee-africart-kara-togo-splash-1600x900.jpg
+    image_path: sample.jpg
     title: title text
     type: left
     url: /c
@@ -21,7 +21,7 @@ features:
     btn_label: see changes
     excerpt: intro text
     image_caption: Image Musée AFRICART Kara
-    image_path: /img/masques-musee-africart-kara-togo-splash-1600x900.jpg
+    image_path: sample.jpg
     title: title text
     type: right
     url: /c

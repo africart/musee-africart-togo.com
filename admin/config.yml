@@ -24,12 +24,10 @@ show_preview_links: true
 
 media_library:
   name: cloudinary
+  output_filename_only: true
   config:
     cloud_name: {{ site.cloudinary.cloud_name }}
     api_key: {{ site.cloudinary.api_key }}
-    output_filename_only: true
-    use_transformations: true
-    use_secure_url: true
 
 collections:
 

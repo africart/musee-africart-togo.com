@@ -4,7 +4,7 @@ gem "jekyll-paginate"
 gem "jekyll-sitemap"
 gem "jekyll-gist"
 gem "jekyll-feed"
-gem 'jekyll-cloudinary'
 gem 'jemoji'
 gem "jekyll-include-cache"
 gem "rake"
+gem "fastimage"

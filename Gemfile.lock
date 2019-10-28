@@ -42,9 +42,6 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 1.8)
-    jekyll-cloudinary (1.14.1)
-      fastimage (~> 2.0)
-      jekyll (>= 3.6, < 5)
     jekyll-feed (0.12.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-gist (1.5.0)
@@ -103,8 +100,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  fastimage
   jekyll
-  jekyll-cloudinary
   jekyll-feed
   jekyll-gist
   jekyll-include-cache

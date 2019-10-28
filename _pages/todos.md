@@ -12,8 +12,7 @@ features:
     btn_label: see changes
     excerpt: intro text
     image_caption: Image Musée AFRICART Kara
-    image_path: >-
-      https://res.cloudinary.com/museeafricartkara/image/upload/v1572265458/IMG_20190617_112612_lsvl7b.jpg
+    image_path: /v1572265458/IMG_20190617_112612_lsvl7b.jpg
     title: title text
     type: left
     url: /c
