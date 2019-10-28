@@ -258,8 +258,3 @@ liquid:
 
 # loads netlify identity js if necessary on a non production branch
 allow_netlify_identity: true
-
-# DEPRECATED
-# include debug
-# sets html comment at include start and end
-comment_includes: true
