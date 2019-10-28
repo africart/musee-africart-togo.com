@@ -1,17 +1,3 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
-# Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
-# theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -56,8 +42,6 @@ algolia:
 # SEO Related
 google_site_verification :
 bing_site_verification   :
-yandex_site_verification :
-naver_site_verification  :
 
 # Social Sharing
 twitter:
@@ -153,10 +137,8 @@ exclude:
   - README
 keep_files:
   - .git
-  - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
 
 # Conversion
 markdown: kramdown
@@ -164,7 +146,6 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -275,10 +256,10 @@ liquid:
   strict_filters: true # default: false
   error_mode: strict # default: warn
 
+# loads netlify identity js if necessary on a non production branch
+allow_netlify_identity: true
 
+# DEPRECATED
 # include debug
 # sets html comment at include start and end
 comment_includes: true
-
-# loads netlify identity js if necessary on a non production branch
-allow_netlify_identity: false
