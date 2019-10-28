@@ -1,0 +1,4 @@
+{% for feature in page.features %}
+{% assign feature_content = feature %}
+{% include CMS_feature_row feature=feature %}
+{% endfor %}

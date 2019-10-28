@@ -77,8 +77,9 @@ collections:
         widget: "string"
         required: false
 
-
+{% comment %}
 {% include cms-admin/header.yml %}
+{% endcomment %}
 
       - label: "Bloc de texte"
         name: "features"
