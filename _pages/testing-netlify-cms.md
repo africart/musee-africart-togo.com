@@ -1,22 +1,23 @@
 ---
 title: Testing Netlify CMS
+sitemap: false
 permalink: /t/
 header:
   caption: This is header caption
   overlay_color: '#000'
   overlay_filter: '0.5'
   overlay_image: /img/masques-musee-africart-kara-togo-splash-1600x900.jpg
-Features:
-  alt: Alt text for feature image
-  btn_class: Yolo
-  btn_label: text du bouton
-  excerpt: Introduction (excerpt for feature)
-  image_caption: Image Musée AFRICART Kara
-  image_path: /img/masques-musee-africart-kara-togo-splash-1600x900.jpg
-  title: Title for feature
-  url: /
+features:
+  - alt: alt
+    btn_class: red
+    btn_label: Yolo
+    excerpt: intro
+    image_caption: Image Musée AFRICART Kara
+    image_path: sample.jpg
+    title: title
+    type: left
+    url: /
 ---
-
-ADD INCLUDE for features !!!!
+{% include CMS_features_rows_output %}
 
 Here is the body
