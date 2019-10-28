@@ -1,7 +1,7 @@
 ---
 title: Todos
 sitemap: false
-permalink: /todos
+permalink: /t1
 features:
   - type: left
     image_path: /img/boutique/musee-africart-togo-cartes-postales-peintes-poupee-de-chiffon-577x433.jpg
