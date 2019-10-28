@@ -23,6 +23,7 @@ logo_url: {{ site.url }}/img/logo-musee-africart-kara-togo-kwele-optimized-omgsv
 show_preview_links: true
 
 collections:
+
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     folder: "_posts" # The path to the folder where the documents are stored
@@ -52,6 +53,9 @@ collections:
           - {label: "Caption", name: caption, widget: string, default: "", required: false}
 
 
+{% assign default_conf = site.defaults | where_exp: "def", "def.scope.type == 'pages'" | first %}
+{% assign default_values = default_conf.values %}
+
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "Pages" # Used in the UI
     folder: "_pages" # The path to the folder where the documents are stored
@@ -75,6 +79,18 @@ collections:
       - label: "Permalink"
         name: "permalink"
         widget: "string"
+        required: false
+
+      - label: "Layout"
+        name: "layout"
+        widget: "string"
+        default: "{{ default_values.layout }}"
+        required: true
+
+      - label: "Classes"
+        name: "classes"
+        widget: "string"
+        default: "{{ default_values.classes }}"
         required: false
 
 {% comment %}{% endcomment %}
