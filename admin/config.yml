@@ -27,6 +27,9 @@ media_library:
   config:
     cloud_name: {{ site.cloudinary.cloud_name }}
     api_key: {{ site.cloudinary.api_key }}
+    output_filename_only: true
+    use_transformations: true
+    use_secure_url: true
 
 collections:
 
@@ -91,7 +94,7 @@ collections:
         name: "layout"
         widget: "string"
         default: "{{ default_values.layout }}"
-        required: true
+        required: false
 
       - label: "Classes"
         name: "classes"

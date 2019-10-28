@@ -183,6 +183,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-cloudinary
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -260,7 +261,16 @@ liquid:
 allow_netlify_identity: true
 
 
-# see : admin/config.yml
+# used by admin/config.yml
 cloudinary:
   cloud_name: museeafricartkara
   api_key: 299776931865458
+  only_prod: false # default: false
+  verbose: true # default: false
+  presets:
+    default:
+      min_width: 320
+      max_width: 1600
+      fallback_max_width: 800
+      steps: 5
+      sizes: "(min-width: 50rem) 50rem, 90vw"
