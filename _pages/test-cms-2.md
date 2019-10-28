@@ -2,6 +2,9 @@
 title: Test cms 2
 sitemap: false
 permalink: /t2
+header:
+  caption: Yolo
+  overlay_image: /img/masques-musee-africart-kara-togo-splash-1600x900.jpg
 features:
   - alt: alt text
     btn_class: yoolo
