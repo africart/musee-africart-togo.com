@@ -21,7 +21,7 @@ features:
     btn_label: see changes
     excerpt: intro text
     image_caption: Image Musée AFRICART Kara
-    image_path: sample.jpg
+    image_path: africart/IMG_20190617_112801_trauca.jpg
     title: title text
     type: right
     url: /c
