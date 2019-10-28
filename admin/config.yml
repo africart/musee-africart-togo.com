@@ -22,6 +22,12 @@ logo_url: {{ site.url }}/img/logo-musee-africart-kara-togo-kwele-optimized-omgsv
 
 show_preview_links: true
 
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: {{ site.cloudinary.cloud_name }}
+    api_key: {{ site.cloudinary.api_key }}
+
 collections:
 
   - name: "blog" # Used in routes, e.g., /admin/collections/blog

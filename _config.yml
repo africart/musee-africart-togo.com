@@ -258,3 +258,9 @@ liquid:
 
 # loads netlify identity js if necessary on a non production branch
 allow_netlify_identity: true
+
+
+# see : admin/config.yml
+cloudinary:
+  cloud_name: museeafricartkara
+  api_key: 299776931865458
