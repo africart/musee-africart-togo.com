@@ -2,6 +2,10 @@
 title: Todos
 sitemap: false
 permalink: /todos
+layout: single
+header:
+  overlay_image: >-
+    https://res.cloudinary.com/museeafricartkara/image/upload/v1572265458/IMG_20190617_112612_lsvl7b.jpg
 features:
   - alt: alt text
     btn_class: yoolo
