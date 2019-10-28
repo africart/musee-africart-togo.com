@@ -1,0 +1,31 @@
+      - label: "Features"
+        name: Features
+        required: false
+        widget: "object"
+        fields:
+          - label: "Image"
+            name: image_path
+            widget: image
+            default: "#000"
+          - label: "Texte image"
+            name: image_caption
+            widget: text
+            default: "Image {{ site.title }}"
+          - label: "Text alternatif image"
+            name: alt
+            widget: text
+          - label: "Titre"
+            name: title
+            widget: text
+          - label: "Intro"
+            name: excerpt
+            widget: markdown
+          - label: "URL bouton"
+            name: url
+            widget: text
+          - label: "Texte bouton"
+            name: btn_label
+            widget: text
+          - label: "Style bouton"
+            name: btn_class
+            widget: text

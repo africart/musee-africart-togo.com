@@ -1,4 +1,6 @@
 ---
+# This file is processed by Jekyll
+# Leave this front matter here !
 ---
 ##################################################################
 # Netlify CMS configuration
@@ -60,12 +62,5 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - label: "Header"
-        name: "header"
-        required: false
-        widget: "object"
-        fields:
-          - {label: "Couleur de masque", name: overlay_color, widget: hidden, default: "#000"}
-          - {label: "Transparence de masque", name: overlay_filter, widget: hidden, default: "0.5"}
-          - {label: "Image", name: overlay_image, widget: image, default: false, required: false}
-          - {label: "Caption", name: caption, widget: string, default: "", required: false}
+{% include cms-admin/header.yml %}
+{% include cms-admin/feature.yml id="feature01" %}
