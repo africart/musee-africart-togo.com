@@ -1,12 +1,19 @@
-      - label: "Feature"
-        name: Feature
-        required: false
-        widget: "object"
+
+      - label: "Bloc de texte"
+        name: "features"
+        widget: "list"
         fields:
+
+          - label: "Type"
+            name: type
+            hint: "left, center or right"
+            widget: string
+            default: "left"
+
           - label: "Image"
             name: image_path
             widget: image
-            default: "#000"
+            default: "{{ site.logo }}"
             required: false
 
           - label: "Texte image"
