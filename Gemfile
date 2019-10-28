@@ -8,3 +8,4 @@ gem 'jemoji'
 gem "jekyll-include-cache"
 gem "rake"
 gem "fastimage"
+gem "bundler"
