@@ -85,6 +85,13 @@ collections:
         name: "features"
         widget: "list"
         fields:
+
+          - label: "Type"
+            name: type
+            hint: "left, center or right"
+            widget: string
+            default: "left"
+
           - label: "Image"
             name: image_path
             widget: image

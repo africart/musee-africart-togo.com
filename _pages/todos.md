@@ -3,12 +3,15 @@ title: Todos
 sitemap: false
 permalink: /todos
 features:
-  - alt: alt text
-    btn_class: red
-    btn_label: See changes
-    excerpt: Intro text
-    image_caption: Image Musée AFRICART Kara
-    image_path: /img/logo-musee-africart-kara-togo-kwele-optimized-omgsvg.svg
+  - type: left
+    image_path: /img/boutique/musee-africart-togo-cartes-postales-peintes-poupee-de-chiffon-577x433.jpg
+    alt: "Boutique"
+    title: "Notre boutique"
+
+    excerpt: >
+      Le musée dispose d’une boutique dans laquelle, à la fin de votre visite vous pourrez acheter quelques souvenirs issus de l’**artisanat local** :
+       - poupées chiffon, marionnettes
+       - (...)
     title: title here
     url: /c
 ---

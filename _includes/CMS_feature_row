@@ -1,16 +1,14 @@
-{% assign feature_row = include.feature %}
-
-<h1>feature_row passed to include : {{ feature_row | debug }}</h1>
+{% assign f = include.feature %}
 
 <div class="feature__wrapper">
-  {% for f in feature_row %}
+
     {% if f.url contains "://" %}
       {% capture f_url %}{{ f.url }}{% endcapture %}
     {% else %}
       {% capture f_url %}{{ f.url | relative_url }}{% endcapture %}
     {% endif %}
 
-    <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
+    <div class="feature__item{% if f.type %}--{{ f.type }}{% endif %}">
       <div class="archive__item">
         {% if f.image_path %}
           <div class="archive__item-teaser">
@@ -44,6 +42,5 @@
         </div>
       </div>
     </div>
-  {% endfor %}
 
 </div>
