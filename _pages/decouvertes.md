@@ -42,7 +42,7 @@ Le peuple Tamberma est un peuple qui vit de l’agriculture, la pêche, l’éle
 
 Les constructions :
 
-{% include figure image_path="/img/decouverte/pays-tamberma-01.jpg" alt="Construction du pays Tamberma." caption="Construction du pays Tamberma." class="half" %}
+{% include figure image_path="https://res.cloudinary.com/museeafricartkara/image/upload/v1572347213/decouvertes/pays-tamberma-01_enewgl.jpg" alt="Construction du pays Tamberma." caption="Construction du pays Tamberma." class="half" %}
 
 Elles sont faites par les hommes pour leur femme. Le Tamberma étant polygame, il se devra de construire une maison pour chacune de ses épouses. Les enfants appartenant au père, ils reçoivent une éducation commune.
 
@@ -50,7 +50,7 @@ Chaque femme entretiendra au mieux sa maison. Elle sera sollicitée pour les tra
 
 La construction se fait en terre, pas de paille dans l’argile. Malaxée avec de l’eau, elle est utilisée en petites élévations d’une trentaine de centimètres empilées jours après jours.
 
-{% include figure image_path="/img/decouverte/pays-tamberma-02.jpg" alt="Construction du pays Tamberma." caption="Construction du pays Tamberma." class="half" %}
+{% include figure image_path="https://res.cloudinary.com/museeafricartkara/image/upload/v1572347214/decouvertes/pays-tamberma-02_cmsgta.jpg" alt="Construction du pays Tamberma." caption="Construction du pays Tamberma." class="half" %}
 
 La construction se décompose en deux parties : le rez-de-chaussée et une terrasse
 
@@ -60,13 +60,13 @@ La construction se décompose en deux parties : le rez-de-chaussée et une terra
 
 Lors des visites touristiques les femmes  proposent leur artisanat.
 
-{% include figure image_path="/img/decouverte/pays-tamberma-03.jpg" alt="Artisanat du pays Tamberma." caption="Artisanat du pays Tamberma." class="half" %}
+{% include figure image_path="https://res.cloudinary.com/museeafricartkara/image/upload/v1572347214/decouvertes/pays-tamberma-03_bslgd3.jpg" alt="Artisanat du pays Tamberma." caption="Artisanat du pays Tamberma." class="half" %}
 
-{% include figure image_path="/img/decouverte/pays-tamberma-04.jpg" alt="Artisanat du pays Tamberma." caption="Artisanat du pays Tamberma." class="half" %}
+{% include figure image_path="https://res.cloudinary.com/museeafricartkara/image/upload/v1572347216/decouvertes/pays-tamberma-04_tefcou.jpg" alt="Artisanat du pays Tamberma." caption="Artisanat du pays Tamberma." class="half" %}
 
 Le guide et la visite :
 
-{% include figure image_path="/img/decouverte/pays-tamberma-05.jpg" alt="N’GNOUWAN Bébéna, guide" caption="N’GNOUWAN Bébéna, guide" class="half" %}
+{% include figure image_path="https://res.cloudinary.com/museeafricartkara/image/upload/v1572347215/decouvertes/pays-tamberma-05_c6dsli.jpg" alt="N’GNOUWAN Bébéna, guide" caption="N’GNOUWAN Bébéna, guide" class="half" %}
 
 Notre guide N’GNOUWAN  Bébéna est indispensable pour une visite de qualité. Recommandé à l’entrée du site, il vous accompagne tout au long de votre parcours en vous donnant un maximum d’informations.
 
@@ -97,7 +97,7 @@ Pour toutes difficultés prendre attache avec le responsable des guides touristi
 
 Situés à 75km de la ville de Kara au Sud Ouest en pays Bassar dans une zone riche en fer, les fourneaux de Bendjeli ont connus leur apogée au XVIIIème et XIXème siècle avant l’arrivée des colonisateurs. Ces derniers ont apporté avec leurs machines, leurs véhicules, du fer qui a été recyclé par les forgerons ce qui a entrainé le déclin des hauts fourneaux de la région. Les Bassar sont venus du Burkina Faso et du Ghana vers le XVIIIème siècle. Peuple d’Agriculteurs et de forgerons ils se sont installés dans la région de Bassar et ont exploité le fer.
 
-{% include figure image_path="/img/decouverte/haut-fourneau-bendjeli-400x550.jpg" alt="Haut-fourneau à Bendjeli" caption="Haut-fourneau à Bendjeli" class="half" %}
+{% include figure image_path="https://res.cloudinary.com/museeafricartkara/image/upload/v1572347217/decouvertes/haut-fourneau-bendjeli-400x550_upy3m7.jpg" alt="Haut-fourneau à Bendjeli" caption="Haut-fourneau à Bendjeli" class="half" %}
 
 Chaque famille possédait 3 types de fourneaux : le petit, le moyen et le grand. Certains peuvent encore fonctionner comme celui de Bendjeli ; d’autres fourneaux sont encore visibles dans la région.
 
@@ -112,21 +112,21 @@ Sur la route de Bendjeli, le marché de Kabou organisé les mercredis s’avère
 Concessions :
 Nous désignons ici par concession le lieu d’habitation d’une famille en Afrique. C’est l’ensemble des cases qui composent une habitation. Elle comprend une case d’accueil, une cours principale, des chambres en fonction du nombre de femmes et d’enfants. On y trouve aussi des locaux destinés aux animaux, des greniers, et surtout des cuisines pour la préparation des repas et de la bière locale (tchouk) faite à base de mil. Éventuellement la distillerie de vin de palme pour la fabrication du SODABI (alcool fort). Généralement la concession dispose d’un mur d’enceinte reliant les différentes cases.
 
-{% include figure image_path="/img/decouverte/preparation-biere-locale-600x450.jpg" alt="Préparation de la bière (Tcoukoudou)" caption="Préparation de la bière (Tcoukoudou)" class="half" %}
+{% include figure image_path="https://res.cloudinary.com/museeafricartkara/image/upload/v1572347217/decouvertes/preparation-biere-locale-600x450_odfv4o.jpg" alt="Préparation de la bière (Tcoukoudou)" caption="Préparation de la bière (Tcoukoudou)" class="half" %}
 
 ## Trekking dans les montagnes Kabyè
 
 Pour ceux qui aimeraient bien faire des balades, nous leur proposons des pistes accessibles dans les monts Lama situés au environs de Kara. La balade peut durer en moyenne 2h de marche. Comme l’illustre les photos ci-dessous, ces pistes ont été l’œuvre des habitants de la montagne où on retrouve toutes les perceptives de la ville de Kara et la culture en terrasse spécifique au peuple Kabyè.
 
-{% include figure image_path="/img/decouverte/trekking-montagne-kabye-01-600x337.jpg" alt="Trekking dans les montagnes Kabyè" caption="Trekking dans les montagnes Kabyè" class="half" %}
-{% include figure image_path="/img/decouverte/trekking-montagne-kabye-03-600x337.jpg" alt="Trekking dans les montagnes Kabyè" caption="Trekking dans les montagnes Kabyè" class="half" %}
-{% include figure image_path="/img/decouverte/trekking-montagne-kabye-02-400x711.jpg" alt="Trekking dans les montagnes Kabyè" caption="Trekking dans les montagnes Kabyè" class="half" %}
+{% include figure image_path="https://res.cloudinary.com/museeafricartkara/image/upload/v1572347218/decouvertes/trekking-montagne-kabye-01-600x337_fktmnr.jpg" alt="Trekking dans les montagnes Kabyè" caption="Trekking dans les montagnes Kabyè" class="half" %}
+{% include figure image_path="https://res.cloudinary.com/museeafricartkara/image/upload/v1572347217/decouvertes/trekking-montagne-kabye-03-600x337_g610k1.jpg" alt="Trekking dans les montagnes Kabyè" caption="Trekking dans les montagnes Kabyè" class="half" %}
+{% include figure image_path="https://res.cloudinary.com/museeafricartkara/image/upload/v1572347218/decouvertes/trekking-montagne-kabye-02-400x711_mghgqn.jpg" alt="Trekking dans les montagnes Kabyè" caption="Trekking dans les montagnes Kabyè" class="half" %}
 
 
 Des balades très intéressantes sont possibles dans les monts de Tcharè à environ 12 km de Kara. Là on y trouve des lieux insolites. Autres lieux intéressants à découvrir tels que d’anciennes concessions
 
-{% include figure image_path="/img/decouverte/mont-tchare-togo-02-600x337.jpg" alt="monts de Tcharè" caption="monts de Tcharè" class="half" %}
-{% include figure image_path="/img/decouverte/mont-tchare-togo-01-600x337.jpg" alt="monts de Tcharè" caption="monts de Tcharè" class="half" %}
+{% include figure image_path="https://res.cloudinary.com/museeafricartkara/image/upload/v1572347215/decouvertes/mont-tchare-togo-02-600x337_s13irs.jpg" alt="monts de Tcharè" caption="monts de Tcharè" class="half" %}
+{% include figure image_path="https://res.cloudinary.com/museeafricartkara/image/upload/v1572347215/decouvertes/mont-tchare-togo-01-600x337_efegdg.jpg" alt="monts de Tcharè" caption="monts de Tcharè" class="half" %}
 Au cours de la balade, on pourra se reposer, pique-niquer au pied d’une cascade. Il existe également des logements pour ceux qui aimerais passer des nuits dans la montagne.
 
 ## Le rocher des morts

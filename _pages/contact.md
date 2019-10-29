@@ -8,7 +8,7 @@ features:
 
   texte:
     - type: left
-      image_path: /img/musee/musee-africart-kara-togo-masques-fallback-teaset-500x300.jpg
+      image_path: /v1572346077/musee/musee-africart-kara-togo-masques-fallback-teaset-500x300_fvxwa2.jpg
       alt: "Vue intérieure du Musée Africart Kara"
       excerpt: >
         Pour tout ce qui concerne la visite du musée et l'organisation de votre venue dans la région de Kara, n’hésitez pas à nous appeler ou à nous laisser un message.
@@ -19,11 +19,12 @@ features:
           - (+228) 92 10 74 73
 
 ---
-{% include features_rows_output %}
+
+{% include CMS_features_rows_output %}
 
 ## Cartes
 
-{% include figure image_path="/img/musee/africart-plan-acces.jpg" alt="Plan d'accès Musée Africart Kara, Togo" caption="Plan d'accès du Musée Africart Kara, Togo" %}
+{% include figure image_path="https://res.cloudinary.com/museeafricartkara/image/upload/v1572346078/musee/africart-plan-acces_l3pxnf.jpg" alt="Plan d'accès Musée Africart Kara, Togo" caption="Plan d'accès du Musée Africart Kara, Togo" %}
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11128.270301796252!2d1.1960242884454415!3d9.55748502636023!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbe81ab4f10a5ec57!2sMus%C3%A9e+Africart!5e0!3m2!1sen!2sfr!4v1565075527368!5m2!1sen!2sfr" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 

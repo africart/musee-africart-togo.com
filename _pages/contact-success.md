@@ -4,9 +4,8 @@ permalink: /contact-success/
 share: false
 sitemap: false
 features:
-  Merci:
       - type: left
-        image_path: /img/association/musee-africart-kara-equipe-800x500.jpg
+        image_path: /v1572346535/association/musee-africart-kara-equipe-800x500_v3ytsw.jpg
         alt: "L'équipe du musée Africart"
         title: "L'équipe du musée Africart vous remercie pour votre message."
         excerpt: >
@@ -17,4 +16,5 @@ features:
         btn_class: "btn--primary"
         url: "/"
 ---
-{% include features_rows_output %}
+
+{% include CMS_features_rows_output %}
