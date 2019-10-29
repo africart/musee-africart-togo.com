@@ -171,8 +171,8 @@ sass:
   style: nested
 
 # Outputting
-permalink: /blog/:title/
-paginate: 5 # amount of posts to show
+permalink: /blog/:slug/
+paginate: 2 # amount of posts to show
 paginate_path: "/blog/page:num/"
 
 
@@ -238,7 +238,7 @@ defaults:
       comments: false
       share: true
       related: true
-      published: false
+      published: true
       image: /img/logo-musee-africart-kara-togo-kwele-200x200.jpg
   # _pages
   - scope:

@@ -49,15 +49,9 @@ collections:
         default: [""]
         required: false
 
-      - label: "Header"
-        name: "header"
-        required: false
-        widget: "object"
-        fields:
-          - {label: "Couleur de masque", name: overlay_color, widget: hidden, default: "#000"}
-          - {label: "Transparence de masque", name: overlay_filter, widget: hidden, default: "0.5"}
-          - {label: "Image", name: overlay_image, widget: image, default: false, required: false}
-          - {label: "Caption", name: caption, widget: string, default: "", required: false}
+{% include cms-admin/header.yml %}
+{% include cms-admin/features.yml %}
+{% include cms-admin/gallery.yml %}
 
 
 {% assign default_conf = site.defaults | where_exp: "def", "def.scope.type == 'pages'" | first %}
@@ -103,4 +97,4 @@ collections:
 {% comment %}{% endcomment %}
 {% include cms-admin/header.yml %}
 {% include cms-admin/features.yml %}
-
+{% include cms-admin/gallery.yml %}

@@ -1,12 +1,12 @@
 ---
 title: "Accueil"
 layout: single
-classes: wide
+# classes: wide
 permalink: /
 
 header:
   overlay_color: #f00
-  overlay_filter: 0
+  overlay_filter: 0.4
   overlay_image: https://res.cloudinary.com/museeafricartkara/image/upload/v1572346076/musee/africart-kara-musee-masques-02-1600x400_tkq8de.jpg
   image_description: Musée AFRICART Kara
   caption: Musée AFRICART Kara, Togo

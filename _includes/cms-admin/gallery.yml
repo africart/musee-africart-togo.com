@@ -1,0 +1,21 @@
+
+      - label: "Galerie d'images"
+        name: "gallery"
+        widget: "list"
+        fields:
+
+          - label: "Image"
+            name: image_path
+            widget: image
+            default: "{{ site.logo }}"
+            required: false
+
+          - label: "Text alternatif image"
+            name: alt
+            widget: text
+            required: false
+
+          - label: "Titre"
+            name: title
+            widget: text
+            required: false
