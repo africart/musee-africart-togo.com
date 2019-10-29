@@ -1,0 +1,2 @@
+[context.branch-deploy]
+  command = "jekyll serve --config _config.yml,_config_dev.yml"
