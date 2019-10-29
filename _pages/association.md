@@ -2,17 +2,12 @@
 title: "Notre Association"
 permalink: /association/
 
-#header:
-#  overlay_color: "#000"
-#  overlay_filter: "0.5"
-#  overlay_image: /img/musee/africart-kara-musee-masques-02-1600x400.jpg
-
 features :
 
-    feature_row2:
       - type: left
-        image_path: /img/association/musee-africart-kara-equipe-800x500.jpg
-        alt: ""
+        image_path: /v1572346535/association/musee-africart-kara-equipe-800x500_v3ytsw.jpg
+        alt: "L'équipe du Musée Africart Kara"
+        image_caption: "L'équipe du Musée Africart Kara"
         title: "Préambule"
         excerpt: >
             - Vu la diversification des destinations touristiques et l’augmentation du nombre de touristes dans les pays de la sous-région en général et au TOGO en particulier ;
@@ -28,7 +23,7 @@ features :
             L’association  MUSEEAFRICART-TOGO est fondée le 1er mars 2019.
 
 ---
-{% include features_rows_output %}
+{% include CMS_features_rows_output %}
 
 ## But
 

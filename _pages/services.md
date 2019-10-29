@@ -3,9 +3,9 @@ title: "Nos services"
 permalink: /services/
 
 features:
-  hebergement:
+
     - type: left
-      image_path: /img/services/musee-africart-togo-hebergement-kara-02-600x450.jpg
+      image_path: /v1572347161/services/musee-africart-togo-hebergement-kara-02-600x450_uejp2h.jpg
       alt: "Nos services d'hébergement"
       title: "Hébergement"
       excerpt: >
@@ -13,9 +13,9 @@ features:
 
         Certains sont équipés de restaurant, piscine, salle de réunion, place des fêtes, wifi.
 
-  visites:
+
     - type: right
-      image_path: /img/decouverte/trekking-montagne-kabye-03-600x337.jpg
+      image_path: /v1572347217/decouvertes/trekking-montagne-kabye-03-600x337_g610k1.jpg
       alt: "Trekking Montagne Kabyé"
       title: "Organisation de vos visites"
       excerpt: >
@@ -26,4 +26,5 @@ features:
         [Contactez-nous](../contact/) pour connaître les modalités et tarifs de ces prestations.
 
 ---
-{% include features_rows_output %}
+
+{% include CMS_features_rows_output %}
