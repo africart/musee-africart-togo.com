@@ -268,8 +268,8 @@ cloudinary:
   verbose: true # default: false
   presets:
     default:
-      min_width: 320
+      min_width: 500
       max_width: 800
-      fallback_max#_width: 600
+      fallback_max#_width: 300
       steps: 3
-#      sizes: "(min-width: 50rem) 50rem, 90vw"
+      sizes: "280px, 440px, 800px"

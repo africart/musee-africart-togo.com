@@ -232,7 +232,7 @@ module Jekyll
           end
         end
 
-        fallback_url = srcset[1]
+        fallback_url = srcset[0]
 
         srcset_string = srcset.join(",\n")
 
