@@ -7,10 +7,10 @@ tags:
 header: {}
 gallery:
   - alt: Treck en montagne Kabié
-    image_path: decouvertes/trekking-montagne-kabye-02-400x711_mghgqn.jpg
+    image_path: decouvertes/trekking-montagne-kabye-03-600x337_g610k1.jpg
     title: Treck en montagne Kabié
   - alt: Treck en montagne Kabié 2
-    image_path: decouvertes/mont-tchare-togo-01-600x337_efegdg.jpg
+    image_path: decouvertes/pays-tamberma-01_enewgl.jpg
     title: Treck en montagne Kabié 2
 ---
 {% include gallery caption="This is a sample gallery with \*\*Markdown support\*\*." %}
