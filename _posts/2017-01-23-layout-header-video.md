@@ -13,14 +13,15 @@ gallery:
     image_path: decouvertes/mont-tchare-togo-01-600x337_efegdg.jpg
     title: Treck en montagne Kabié 2
 ---
+{% include gallery caption="This is a sample gallery with \*\*Markdown support\*\*." %}
 
 This post should display a **header with a responsive video**, if the theme supports it.
 
 ## Settings
 
-| Parameter  | Required     | Description |
-|----------  |---------     | ----------- |
-| `id`       | **Required** | ID of the video |
+| Parameter  | Required     | Description                                                |
+| ---------- | ------------ | ---------------------------------------------------------- |
+| `id`       | **Required** | ID of the video                                            |
 | `provider` | **Required** | Hosting provider of the video, either `youtube` or `vimeo` |
 
 ### YouTube
