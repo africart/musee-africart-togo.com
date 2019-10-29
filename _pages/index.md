@@ -1,4 +1,5 @@
 ---
+title: "Accueil"
 layout: single
 classes: wide
 permalink: /

@@ -2,6 +2,8 @@ minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "fr"
+lang                     : "fr_FR"
+timezone                 : "Africa/Lome" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 title                    : "Musée AFRICART Kara"
 title_separator          : "-"
 subtitle                 : Art Africain # site tagline that appears below site title in masthead
@@ -68,7 +70,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Africart Kara"
+  name             : "Musée Africart Kara"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : ""
   location         : ""
@@ -172,7 +174,6 @@ sass:
 permalink: /blog/:title/
 paginate: 5 # amount of posts to show
 paginate_path: "/blog/page:num/"
-timezone: "Africa/Lome" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -183,6 +184,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-seo-tag
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -237,6 +239,7 @@ defaults:
       share: true
       related: true
       published: false
+      image: /img/logo-musee-africart-kara-togo-kwele-200x200.jpg
   # _pages
   - scope:
       path: "_pages"
@@ -249,6 +252,7 @@ defaults:
       comments: false
       share: true
       related: true
+      image: /img/logo-musee-africart-kara-togo-kwele-200x200.jpg
 
 # liquid debug
 liquid:
