@@ -1,15 +1,17 @@
 ---
-title: "Layout: Header Video"
-header:
-  video:
-    id: XsxDH4HcOWA
-    provider: youtube
-categories:
-  - Layout
-  - Uncategorized
+title: 'Layout: Header Video'
+excerpt: Excerpt
 tags:
   - video
   - layout
+header: {}
+gallery:
+  - alt: Treck en montagne Kabié
+    image_path: decouvertes/trekking-montagne-kabye-02-400x711_mghgqn.jpg
+    title: Treck en montagne Kabié
+  - alt: Treck en montagne Kabié 2
+    image_path: decouvertes/mont-tchare-togo-01-600x337_efegdg.jpg
+    title: Treck en montagne Kabié 2
 ---
 
 This post should display a **header with a responsive video**, if the theme supports it.
