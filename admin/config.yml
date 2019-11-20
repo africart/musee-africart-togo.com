@@ -19,6 +19,7 @@ media_folder: "img" # Media files will be stored in the repo under images/upload
 site_url: {{ site.url }}
 display_url: {{ site.url }}
 logo_url: {{ site.url }}/img/logo-musee-africart-kara-togo-kwele-optimized-omgsvg.svg
+locale: {{ site.locale }}
 
 show_preview_links: true
 
