@@ -198,7 +198,7 @@ timezone: "Africa/Lome" # https://en.wikipedia.org/wiki/List_of_tz_database_time
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
+#  - jekyll-gist
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
