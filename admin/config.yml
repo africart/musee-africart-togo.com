@@ -39,10 +39,10 @@ collections:
     slug: "{% raw %}{{year}}-{{month}}-{{day}}-{{slug}}{% endraw %}" # Filename template, e.g., YYYY-MM-DD-title.md
     delete: false # prevents users from deleting items in a collection; defaults to true
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Excerpt", name: "excerpt", widget: "markdown"}
-      - {label: "Body", name: "body", widget: "markdown"}
-
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Résumé", name: "excerpt", widget: "markdown"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Catégories", name: "categories", widget: "categories"}
       - label: "Tags"
         name: "tags"
         hint: une liste de tags séparé par une virgule (tag1, tag2, un autre tag)
