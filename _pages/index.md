@@ -3,6 +3,7 @@ title: Accueil
 sitemap: true
 permalink: /
 layout: single
+classes: wide
 header:
   caption: 'Musée AFRICART Kara, Togo'
   overlay_filter: 0.4
@@ -30,16 +31,28 @@ features:
     title: Nos services
     type: right
     url: /services/
-  - alt: Mont Tcharé - Togo
-    btn_class: btn--primary
-    btn_label: En savoir plus
-    excerpt: '{% include CMS_home_posts_list %}'
-    image_caption: Mont Tcharé - Togo
+
+  - type: left
     image_path: /v1572347215/decouvertes/mont-tchare-togo-02-600x337_s13irs.jpg
-    title: 'Sur notre blog :'
-    type: left
-    url: /decouvertes/
+    alt: "Mont Tcharé - Togo"
+    title: "Les découvertes à faire dans la région de Kara"
+    excerpt: >
+       Du Musée Kabyè au 'Rocher des Morts', en passant par les fêtes d'Evala.
+       Une plongée dans les cultures de la région de Kara.
+    url: "/decouvertes/"
+    btn_label: "En savoir plus"
+    btn_class: "btn--primary"
 ---
 
 {% include CMS_features_rows_output %}
 
+
+<h3>Sur notre blog :</h3>
+<ul>
+  {% for p in site.posts limit: 3 %}
+  <li>
+  <a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+<a href="{{ site.baseurl }}/blog/">Voir notre blog &gt;&gt;</a>
