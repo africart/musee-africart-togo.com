@@ -13,6 +13,9 @@ features:
     image_path: rose-d-automne_ivli0s.jpg
     type: left
 gallery:
-  - image_path: /img/logo-musee-africart-kara-togo-kwele-optimized-omgsvg.svg
+  - alt: Des fleurs
+    image_path: sample.jpg
+    title: De belles fleurs
+  - image_path: association/musee-africart-kara-equipe-800x500_v3ytsw.jpg
 ---
 Ici le **texte**
