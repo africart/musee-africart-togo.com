@@ -9,6 +9,16 @@
             widget: image
             default: "{{ site.logo }}"
             required: false
+            media_library:
+              output_filename_only: false
+              config:
+                default_transformations:
+                      - fetch_format: auto
+                        width: 300
+                        quality: auto
+                        crop: fill
+                        effect: grayscale
+
 
           - label: "Text alternatif image"
             name: alt

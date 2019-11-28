@@ -226,7 +226,7 @@ module Jekyll
         (1..steps).each do |factor|
           width = min_width + (factor - 1) * step_width
           if width <= natural_width
-            srcset << "https://res.cloudinary.com/#{settings["cloud_name"]}/image/#{type}/#{transformations_string}w_#{width}/#{image_src}"
+            srcset << "https://res.cloudinary.com/#{settings["cloud_name"]}/image/#{type}/#{transformations_string}w_#{width}/#{image_src} #{width}w"
           else
             missed_sizes.push(width)
           end

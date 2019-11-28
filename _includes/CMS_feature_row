@@ -1,3 +1,7 @@
+{% comment %}+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++{% endcomment %}
 {% assign f = include.feature %}
 
 <div class="feature__wrapper">
@@ -11,9 +15,10 @@
     <div class="feature__item{% if f.type %}--{{ f.type }}{% endif %}">
       <div class="archive__item">
         {% if f.image_path %}
+
           <div class="archive__item-teaser">
 
-{% cloudinary {{ f.image_path }} alt="{{ f.alt }}" %}
+          {% cloudinary {{ f.image_path }} alt="{{ f.alt }}" %}
 
           {% comment %}
             <img src=
@@ -24,9 +29,11 @@
               {% endif %}
             alt="{% if f.alt %}{{ f.alt }}{% endif %}">
             {% endcomment %}
+
             {% if f.image_caption %}
               <span class="archive__item-caption">{{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
             {% endif %}
+
           </div>
         {% endif %}
 

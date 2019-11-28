@@ -54,7 +54,10 @@ collections:
 {% include cms-admin/features.yml %}
 {% include cms-admin/gallery.yml %}
 
-
+{% comment %} +++++++++++++++++++++++++++++++++++++++++++++++++++++
+Uses default Jekyll's config to set default values
+when we create a new item
++++++++++++++++++++++++++++++++++++++++++++++++++++++{% endcomment %}
 {% assign default_conf = site.defaults | where_exp: "def", "def.scope.type == 'pages'" | first %}
 {% assign default_values = default_conf.values %}
 
