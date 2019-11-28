@@ -1,4 +1,5 @@
 source "https://rubygems.org"
+# gem "jekyll", "~> 3"
 gem "jekyll"
 gem 'jekyll-seo-tag'
 gem "jekyll-paginate"
