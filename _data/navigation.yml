@@ -9,8 +9,8 @@ main:
     url: /association/
   - title: "Nos services"
     url: /services/
-  - title: "Découvertes"
-    url: /decouvertes/
+  #- title: "Découvertes"
+  #  url: /decouvertes/
   - title: "Blog"
     url: /blog/
   - title: "Contact"
