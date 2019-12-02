@@ -103,21 +103,14 @@ when we create a new item
 {% include cms-admin/features.yml %}
 {% include cms-admin/gallery.yml %}
 
-  - label: "Paramètres"
-    name: "parametres"
-    description: |
-      Les paramètres de l'application. A manier avec douceur.
+
+  - name: "categories" # Used in routes, e.g., /admin/collections/blog
+    label: "Catégories" # Used in the UI
+    folder: "_categories" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
+    slug: "{% raw %}{{slug}}{% endraw %}" # Filename template, e.g., YYYY-MM-DD-title.md
     delete: true # prevents users from deleting items in a collection; defaults to true
-    files:
-      - label: "Categories"
-        name: "categories"
-        file: "_data/categories.yml"
-        fields:
-          - label: Catégories
-            name: categories
-            widget: list
-            fields:
-              - { label: Titre, name: title, widget: string }
-              - { label: Nom, name: name, widget: string, hint: "Fêtes traditionelles - Nom: fetes-traditionnelles" }
-              - { label: Description, name: description, widget: markdown }
+    fields: # The fields for each document, usually in front matter
+      - { label: "Titre", name: "title", widget: "string"}
+      - { label: Nom, name: name, widget: string, hint: "Fêtes traditionelles - Nom: fetes-traditionnelles" }
+      - { label: Description, name: description, widget: markdown, required: false }

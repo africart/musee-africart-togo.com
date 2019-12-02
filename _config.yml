@@ -224,6 +224,9 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
+collections:
+  categories:
+    output: true
 
 # Defaults
 defaults:
@@ -253,6 +256,12 @@ defaults:
       share: true
       related: true
       image: /img/logo-musee-africart-kara-togo-kwele-200x200.jpg
+  # _categories
+  - scope:
+      path: "_categories"
+      type: categories
+    values:
+      layout: category
 
 # liquid debug
 liquid:
