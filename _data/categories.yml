@@ -1,4 +1,11 @@
-  - title: Fêtes traditionnelles
+categories:
+  - description: >-
+      De nombreuses fêtes traditionnelles ont lieu tout au long de l'année dans
+      la région de Kara. Nous vous en présentons quelques unes.
     name: fetes-traditionnelles
-  - title: Visites
-    name: visites
+    title: Fêtes traditionnelles
+  - description: >-
+      Nous vous présentons les lieux d'histoire et de culture de la grande
+      région.
+    name: visites-incontournables
+    title: Les visites incontournables
