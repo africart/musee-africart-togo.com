@@ -42,7 +42,14 @@ collections:
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Résumé", name: "excerpt", widget: "markdown"}
       - {label: "Texte", name: "body", widget: "markdown"}
-#      - {label: "Catégories", name: "categories", widget: "categories"}
+      - label: "Catégories"
+        name: "category"
+        widget: "relation"
+        searchFields: ["title"]
+        collection: categories
+        valueField: "name"
+        displayFields: ["title"]
+        default: "actualites"
       - label: "Tags"
         name: "tags"
         hint: une liste de tags séparé par une virgule (tag1, tag2, un autre tag)
