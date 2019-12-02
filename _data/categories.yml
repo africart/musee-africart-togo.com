@@ -1,7 +1,4 @@
-title: First categories
-intro: Intro for first categorie
-team:
-  - name: Yolo Tigana
-    position: One and only master
-  - name: Second member
-    position: position unstable
+  - title: Fêtes traditionnelles
+    name: fetes-traditionnelles
+  - name: Visites
+    position: visites

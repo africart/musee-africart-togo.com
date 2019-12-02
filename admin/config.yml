@@ -103,21 +103,15 @@ when we create a new item
 {% include cms-admin/features.yml %}
 {% include cms-admin/gallery.yml %}
 
-
-  - label: "Categories"
-    name: "categories"
-    create: true # Allow users to create new documents in this collection
-    delete: true # prevents users from deleting items in a collection; defaults to true
+  - label: "Paramètres"
+    name: "parametres"
     files:
-      - label: "Categorie"
+      - label: "Categories"
         name: "categorie"
+        create: true # Allow users to create new documents in this collection
+        delete: true # prevents users from deleting items in a collection; defaults to true
         file: "_data/categories.yml"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
-          - label: Team
-            name: team
-            widget: list
-            fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Position, name: position, widget: string}
+          - { label: Titre, name: title, widget: string }
+          - { label: Name, name: name, widget: string }
+          - { label: description, name: description, widget: markdown}
