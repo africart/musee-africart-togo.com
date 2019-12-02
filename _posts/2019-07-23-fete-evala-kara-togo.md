@@ -1,7 +1,9 @@
 ---
-title: "Fête Evala à Kara"
-category:
-  - Fêtes traditionnelles
+title: Fête Evala à Kara
+excerpt: >-
+  Quelques vidéos de la Fête des Evala qui c'est tenue du 12 juillet au 14
+  juillet 2019.
+category: fetes-traditionnelles
 tags:
   - Evala
   - Kara
