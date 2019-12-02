@@ -1,5 +1,5 @@
 ---
-title: Nouvel article
+title: Nouvel article modifié
 excerpt: Les fêtes Evalla
 category: fetes-traditionnelles
 tags:
