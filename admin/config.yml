@@ -105,13 +105,19 @@ when we create a new item
 
   - label: "Paramètres"
     name: "parametres"
+    description: |
+      Les paramètres de l'application. A manier avec douceur.
+    create: true # Allow users to create new documents in this collection
+    delete: true # prevents users from deleting items in a collection; defaults to true
     files:
       - label: "Categories"
-        name: "categorie"
-        create: true # Allow users to create new documents in this collection
-        delete: true # prevents users from deleting items in a collection; defaults to true
+        name: "categories"
         file: "_data/categories.yml"
         fields:
-          - { label: Titre, name: title, widget: string }
-          - { label: Name, name: name, widget: string }
-          - { label: description, name: description, widget: markdown}
+          - label: Catégories
+            name: categories
+            widget: list
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - { label: Nom, name: name, widget: string, hint: "Fêtes traditionelles - Nom: fetes-traditionnelles" }
+              - { label: Description, name: description, widget: markdown }
