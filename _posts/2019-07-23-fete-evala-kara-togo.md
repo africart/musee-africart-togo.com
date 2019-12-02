@@ -1,6 +1,6 @@
 ---
 title: "Fête Evala à Kara"
-categories:
+category:
   - Fêtes traditionnelles
 tags:
   - Evala

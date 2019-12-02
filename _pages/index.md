@@ -46,12 +46,17 @@ features:
 
 {% include CMS_features_rows_output %}
 
-
 <h3>Sur notre blog :</h3>
 <ul>
   {% for p in site.posts limit: 3 %}
   <li>
   <a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
+<small>
+  dans la rubrique : {{ p.category }} -
+</small>
+
+
+
   </li>
   {% endfor %}
 </ul>

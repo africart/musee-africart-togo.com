@@ -42,7 +42,7 @@ collections:
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Résumé", name: "excerpt", widget: "markdown"}
       - {label: "Texte", name: "body", widget: "markdown"}
-      - {label: "Catégories", name: "categories", widget: "categories"}
+#      - {label: "Catégories", name: "categories", widget: "categories"}
       - label: "Tags"
         name: "tags"
         hint: une liste de tags séparé par une virgule (tag1, tag2, un autre tag)
@@ -66,7 +66,7 @@ when we create a new item
     folder: "_pages" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{% raw %}{{slug}}{% endraw %}" # Filename template, e.g., YYYY-MM-DD-title.md
-    delete: false # prevents users from deleting items in a collection; defaults to true
+    delete: true # prevents users from deleting items in a collection; defaults to true
     fields:
       - label: "Title"
         name: "title"
@@ -102,3 +102,22 @@ when we create a new item
 {% include cms-admin/header.yml %}
 {% include cms-admin/features.yml %}
 {% include cms-admin/gallery.yml %}
+
+
+  - label: "Categories"
+    name: "categories"
+    create: true # Allow users to create new documents in this collection
+    delete: true # prevents users from deleting items in a collection; defaults to true
+    files:
+      - label: "Categorie"
+        name: "categorie"
+        file: "_data/categories.yml"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Intro, name: intro, widget: markdown}
+          - label: Team
+            name: team
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Position, name: position, widget: string}
