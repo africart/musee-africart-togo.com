@@ -7,3 +7,6 @@ gem "jekyll-feed"
 gem "jemoji"
 gem "jekyll-include-cache"
 gem "rake"
+
+
+gem "kramdown-parser-gfm"
