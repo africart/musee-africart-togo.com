@@ -10,7 +10,9 @@ module Jekyll
       alias_method :old_read_file, :read_file
 
       def read_file(file, context)
-        fileContent = File.read(file, file_read_opts(context))
+        options = file_read_opts(context)
+
+        fileContent = File.read(file, **options)
 
         site  = context.registers[:site]
         debug = site.config['comment_includes']
