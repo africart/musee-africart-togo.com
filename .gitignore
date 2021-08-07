@@ -3,6 +3,8 @@
 *.sublime-workspace
 .bundle
 .DS_Store
+
+.jekyll-cache
 .jekyll-metadata
 .sass-cache
 _asset_bundler_cache
