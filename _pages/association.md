@@ -8,27 +8,25 @@ permalink: /association/
 #  overlay_image: /img/musee/africart-kara-musee-masques-02-1600x400.jpg
 
 features :
+  - type: left
+    image_path: /img/association/musee-africart-kara-equipe-800x500.jpg
+    alt: ""
+    title: "Préambule"
+    excerpt: >
+        - Vu la diversification des destinations touristiques et l’augmentation du nombre de touristes dans les pays de la sous-région en général et au TOGO en particulier ;
 
-    feature_row2:
-      - type: left
-        image_path: /img/association/musee-africart-kara-equipe-800x500.jpg
-        alt: ""
-        title: "Préambule"
-        excerpt: >
-            - Vu la diversification des destinations touristiques et l’augmentation du nombre de touristes dans les pays de la sous-région en général et au TOGO en particulier ;
+        - Convaincu que le tourisme est un outil important dans la lutte pour la réduction de la pauvreté, qui offre des opportunités de création d’emploi, de développement économique et d’intégration dans le marché international ;
 
-            - Convaincu que le tourisme est un outil important dans la lutte pour la réduction de la pauvreté, qui offre des opportunités de création d’emploi, de développement économique et d’intégration dans le marché international ;
-
-            - Reconnaissant que le tourisme au Togo demeure un secteur à fort potentiel de croissance, et se fondant sur des préoccupations communes et partagées des populations dans ce domaine ;
+        - Reconnaissant que le tourisme au Togo demeure un secteur à fort potentiel de croissance, et se fondant sur des préoccupations communes et partagées des populations dans ce domaine ;
 
 
-            Les membres fondateurs ont décidé de créer une Association apolitique et à but non lucratif dénommée MUSEEAFRICART-TOGO conformément à la loi n° 40-484 du 1er juillet 1901 relative à la liberté d’Association. Sa vision est de faire découvrir l’Afrique, de sensibiliser les populations à leur histoire et à l’histoire de l’Afrique à travers une grande exposition de masques et sculptures.
+        Les membres fondateurs ont décidé de créer une Association apolitique et à but non lucratif dénommée MUSEEAFRICART-TOGO conformément à la loi n° 40-484 du 1er juillet 1901 relative à la liberté d’Association. Sa vision est de faire découvrir l’Afrique, de sensibiliser les populations à leur histoire et à l’histoire de l’Afrique à travers une grande exposition de masques et sculptures.
 
 
-            L’association  MUSEEAFRICART-TOGO est fondée le 1er mars 2019.
+        L’association  MUSEEAFRICART-TOGO est fondée le 1er mars 2019.
 
 ---
-{% include features_rows_output %}
+{% include features_output %}
 
 ## But
 

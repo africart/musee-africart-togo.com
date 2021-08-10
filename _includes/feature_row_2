@@ -1,0 +1,46 @@
+{% assign feature_type = feature['type'] | default: 'left' %}
+
+<div class="feature__wrapper">
+  
+  {% if feature.url contains "://" %}
+    {% capture f_url %}{{ feature.url }}{% endcapture %}
+  {% else %}
+    {% capture f_url %}{{ feature.url | relative_url }}{% endcapture %}
+  {% endif %}
+
+  <div class="feature__item--{{ feature_type }}">
+    <div class="archive__item">
+      {% if feature.image_path %}
+        <div class="archive__item-teaser">
+          <img src=
+            {% if feature.image_path contains "://" %}
+              "{{ feature.image_path }}"
+            {% else %}
+              "{{ feature.image_path | relative_url }}"
+            {% endif %}
+          alt="{% if feature.alt %}{{ feature.alt }}{% endif %}">
+          {% if feature.image_caption %}
+            <span class="archive__item-caption">{{ feature.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+          {% endif %}
+        </div>
+      {% endif %}
+
+      <div class="archive__item-body">
+        {% if feature.title %}
+          <h2 class="archive__item-title">{{ feature.title }}</h2>
+        {% endif %}
+
+        {% if feature.excerpt %}
+          <div class="archive__item-excerpt">
+            {{ feature.excerpt | markdownify }}
+          </div>
+        {% endif %}
+
+        {% if feature.url %}
+          <p><a href="{{ f_url }}" class="btn {{ feature.btn_class }}">{{ feature.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  
+</div>

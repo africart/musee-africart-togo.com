@@ -8,12 +8,11 @@
 backend:
   name: git-gateway
   accept_roles: #optional - accepts all users if left out
-    - develop
   branch: master # Branch to update (optional; defaults to master)
 
 # publish_mode: editorial_workflow
 
-media_folder: "img" # Media files will be stored in the repo under images/uploads
+media_folder: "img" # Media files will be stored in the repo under img
 
 site_url: {{ site.url }}
 display_url: {{ site.url }}
@@ -81,3 +80,21 @@ collections:
               - {label: Name, name: name, widget: string, default: "Emmet"}
               - {label: Avatar, name: avatar, widget: image, default: "/img/emmet.jpg"}
 
+  - name: "pages"
+    label: "pages"
+    folder: "_pages"
+    create: true
+    delete: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - label: 'Features'
+        name: 'features'
+        widget: 'list'
+        fields:
+          - {label: 'Titre', name: 'title', widget: 'string'}
+          - { label: 'Type', name: 'type', widget: 'select', options: ['left', 'right'] }
+          - { label: 'Image', name: 'image', widget: 'image' }
+          - { label: 'alt', name: 'alt', widget: 'string' }
+          - { label: 'Excerpt', name: 'excerpt', widget: 'markdown' }

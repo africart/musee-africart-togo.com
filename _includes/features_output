@@ -1,0 +1,3 @@
+{% for feature in page.features %}
+{% include feature_row_2 %}
+{% endfor %}
